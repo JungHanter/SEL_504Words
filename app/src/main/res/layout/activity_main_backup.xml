@@ -12,9 +12,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:background="?attr/colorPrimaryDark"
+        android:background="?attr/colorPrimary"
         android:title="@string/app_name"
-        android:titleTextAppearance="?attr/colorPrimary" />
+        android:titleTextAppearance="@color/white" />
 
     <RelativeLayout
         android:layout_width="match_parent"

@@ -9,11 +9,13 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
 
 
 public class MainActivity extends ActionBarActivity {
 
     private Toolbar toolbar = null;
+    private ListView menuListView = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,8 @@ public class MainActivity extends ActionBarActivity {
             setSupportActionBar(toolbar);
             Log.d("MainActivity", "not support toolbar, so apply supportActionBar");
         }
+
+        menuListView = (ListView)findViewById(R.id.act_main_listView);
     }
 
 
